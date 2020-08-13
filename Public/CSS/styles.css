@@ -39,7 +39,7 @@ nav li {
 footer {
     height: 270px;
     text-align: center;
-    background-color: #191A1D;
+    background-color: #212327;
     color: white;
     position: relative;
 }
@@ -293,12 +293,19 @@ footer p {
     position: relative;
 }
 
+/* Pages Body */
+#pages-body {
+    height: 1500px;
+    background-color: #fcfcfc;
+    color: black;
+}
+
 /* Contact Page Sections */
 #pages-header {
     text-align: center;
     color: white;
     margin: 0;
-    background-color: #1b262c;
+    background-color: #412c4d;
     height: 370px;
 }
 
