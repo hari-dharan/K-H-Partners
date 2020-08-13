@@ -32,18 +32,33 @@
 
   <body>
 
-    <section id="contact-header">
+    <section id="pages-header">
       
         <div class="navigation">
 
           <nav>
+
             <ul>
                 <li><a href="index.html" class="brand">K&H</a></li>
                 <li><a href="index.html" class="nav-item home">Home</a></li>
-                <li><a href="photography.html" class="nav-item portfolio">Portfolio</a></li>
+                <li>
+                    <div class="dropdown show">
+                        <a class="dropdown-toggle nav-item portfolio" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Portfolio
+                        </a>
+                  
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="photography.html">Photography</a>
+                            <a class="dropdown-item" href="webdev.html">Web Design</a>
+                            <a class="dropdown-item" href="posters.html">Posters</a>
+                            <a class="dropdown-item" href="ads.html">Ad Campaigns</a>
+                        </div>
+                    </div>
+                </li>
                 <li><a href="contact.html" class="nav-item contact">Contact</a></li>
             </ul>
-          </nav>
+
+        </nav>
         
           <div class="tag">
               <h1 class="tag-head">Get In Touch</h1>

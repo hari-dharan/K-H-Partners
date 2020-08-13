@@ -294,12 +294,12 @@ footer p {
 }
 
 /* Contact Page Sections */
-#contact-header {
+#pages-header {
     text-align: center;
     color: white;
     margin: 0;
     background-color: #1b262c;
-    height: 270px;
+    height: 370px;
 }
 
 #slideshow-form {
