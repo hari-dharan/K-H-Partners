@@ -1,0 +1,312 @@
+/* {} /
+/*************************TAG SELECTORS**************************************/
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+p {
+    font-weight: 200;
+    font-family: 'Neuton', serif;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: relative;
+}
+
+nav li {
+    display: inline;
+}
+
+footer {
+    height: 270px;
+    text-align: center;
+    background-color: #191A1D;
+    color: white;
+    position: relative;
+}
+
+footer i {
+    padding: 40px 10px 0;
+}
+
+footer p {
+    padding-top: 70px;
+    font-size: 1rem;
+}
+
+
+/*************************CLASS SELECTORS************************************/
+
+
+.header-bg {
+    background-image: url("Images/annapurna-1.jpg");
+    /*background-image: url(https://images.unsplash.com/photo-1552072804-cc97764f1f86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80);*/
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    position: relative;
+}
+
+.navigation {
+    padding: 20px;
+    position: relative;
+}
+
+.brand {
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+
+.brand:hover {
+    text-decoration: none;
+    color: #505153;
+}
+
+.nav-item {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    color: #505153;
+}
+
+.home {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.portfolio {
+    position: absolute;
+    right: 190px;
+    top: 40px;
+}
+
+.contact {
+    position: absolute;
+    right: 95px;
+    top: 40px;
+}
+
+.tag {
+    display: inline-block;
+    margin-top: 105px;
+}
+
+.tag-head {
+    font-weight: 300;
+    font-family: 'Bree Serif', serif;
+    margin: 0;
+}
+
+.tag-desc {
+    padding: 0 100px 50px;
+    margin-top: 10px;
+}
+
+.service-row {
+    margin-top: 40px;
+}
+
+.service-box {
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+.service-name {
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #212327;
+}
+
+.fa-camera {
+    color: #212327;
+}
+
+.fa-camera:hover {
+    color: #444648;
+}
+
+.fa-bullhorn {
+    color: #212327;
+}
+
+.fa-bullhorn:hover {
+    color: #444648;
+}
+
+.fa-paint-brush {
+    color: #212327;
+}
+
+.fa-paint-brush:hover {
+    color: #444648;
+}
+
+.fa-laptop-code {
+    color: #212327;
+}
+
+.fa-laptop-code:hover {
+    color: #444648;
+}
+
+.profile {
+    height: 600px;
+    background-color: #fcfcfc;
+}
+
+.keynesh-box {
+    margin-top: 200px;
+}
+
+.keynesh-desc {
+    margin-top: 200px;
+    padding: 0 150px;
+    text-align: justify;
+}
+
+.hari-box {
+    margin-top: 100px;
+}
+
+.hari-desc {
+    margin-top: 100px;
+    padding: 0 150px;
+    text-align: justify;
+}
+
+.face {
+    margin: 10px;
+}
+
+.btn {
+    margin: 20px;
+    color: #212327;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #393A3D;
+}
+
+.submit-btn {
+    color: white;
+    background-color: #393A3D;
+}
+
+.submit-btn:hover {
+        background-color: #505158;
+}
+
+.top-client {
+    position: absolute;
+    top: 200px;
+}
+
+.bottom-client {
+    position: absolute;
+    top: 400px;
+    margin-top: 30px;
+}
+
+/* .logo-box {
+    
+} */
+
+.logo {
+    border: thick solid black;
+}
+
+.title {
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Bree Serif', serif;
+    padding-top: 40px;
+}
+
+.contact-form {
+    margin-top: 130px;
+}
+
+
+/*************************ID SELECTORS***************************************/
+
+/* Home Page Sections */
+#header {
+    text-align: center;
+    color: white;
+    height: 100%;
+    margin: 0;
+}
+
+#services {
+    padding: 50px;
+    height: 300px;
+    background-color: #fcfcfc;
+}
+
+#keynesh {
+    height: 600px;
+    text-align: center;
+}
+
+#hari {
+    height: 600px;
+    text-align: center;
+}
+
+#clients {
+    height: 700px;
+    background-color: #fcfcfc;
+    color: black;
+    position: relative;
+}
+
+/* Contact Page Sections */
+#contact-header {
+    text-align: center;
+    color: white;
+    margin: 0;
+    background-color: #1b262c;
+    height: 270px;
+}
+
+#slideshow-form {
+    background-color: #fcfcfc;
+    color: black;
+    padding: 100px 0;
+    font-weight: 200;
+    font-family: 'Neuton', serif;
+    font-size: 1.2rem;
+}
