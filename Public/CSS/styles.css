@@ -86,7 +86,7 @@ footer p {
 
 .brand:hover {
     text-decoration: none;
-    color: #505153;
+    color: #646568;
 }
 
 .nav-item {
@@ -96,7 +96,7 @@ footer p {
 
 .nav-item:hover {
     text-decoration: none;
-    color: #505153;
+    color: #646568;
 }
 
 .home {
@@ -259,6 +259,27 @@ footer p {
     margin-top: 130px;
 }
 
+/* Web-Dev & Design Page */
+
+.web-row {
+    padding-top: 70px;
+}
+
+.site-card {
+    margin: 30px;
+}
+
+.cardBody {
+    text-align: center;
+    padding: 3%;
+}
+
+.cardButton {
+    margin: 5px;
+}
+
+
+
 
 /*************************ID SELECTORS***************************************/
 
@@ -294,6 +315,13 @@ footer p {
 }
 
 /* Pages Body */
+
+#web-body {
+    height: 1400px;
+    background-color: #fcfcfc;
+    color: black;
+}
+
 #pages-body {
     height: 1500px;
     background-color: #fcfcfc;
@@ -305,7 +333,7 @@ footer p {
     text-align: center;
     color: white;
     margin: 0;
-    background-color: #412c4d;
+    background-color: #101010;
     height: 370px;
 }
 
